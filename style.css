@@ -83,17 +83,24 @@ header ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 8px;
 }
 .hero {
   font-size: 18px;
   font-weight: 300;
   color: #E5E7EB;
   background-color: #1F2937;
-  padding: 10%;
+  gap: 150px;
   display: flex;
+  flex: 1 0 auto;
+  height: 500px;
+  align-items: center;
 }
 .hero-left {
-  width: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-justify: left;
 }
 .hero-left button {
   background-color: #3882F6;
@@ -105,4 +112,39 @@ header ul {
   margin: 18px 0;
 }
 .hero-img {
-  background-color: #
+  background-color: rgba(238, 238, 238, .25);
+  width: 50%;
+  height: 350px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: #1F2937
+}
+.info h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.info-cards {
+  margin-top: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  width: 150px;
+  align-items: center;
+  gap: 8px;
+}
+.card-border {
+  height: 150px;
+  width: 150px;
+  border: #3882F6 solid 3px;
+  border-radius: 15%;
+}
