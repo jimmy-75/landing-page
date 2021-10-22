@@ -83,7 +83,7 @@ header ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 8px;
+  padding-top: 16px;
 }
 .hero {
   font-size: 18px;
@@ -105,7 +105,7 @@ header ul {
 .hero-left button {
   background-color: #3882F6;
   border: none;
-  border-radius: 10%;
+  border-radius: 5px;
   color: #E5E7EB;
   width: 100px;
   height: 30px;
@@ -123,7 +123,7 @@ header ul {
   padding-top: 50px;
   color: #1F2937
 }
-.info h3 {
+.info h2 {
   font-size: 36px;
   font-weight: 900;
 }
@@ -142,6 +142,7 @@ header ul {
   width: 150px;
   align-items: center;
   gap: 8px;
+  text-align: center;
 }
 .card-border {
   height: 150px;
@@ -170,4 +171,46 @@ header ul {
   width: 750px;
   color: #1F2937;
   font-size: 24px;
+}
+.action {
+  display: flex;
+  margin: 100px auto;
+  align-content: center;
+  justify-content: center;
+}
+.call-block {
+  background-color: #3882F6;
+  height: 150px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+}
+.call-text h3 {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+.call-text p {
+  color: #F9FAF8;
+  font-weight: 300;
+}
+.call-block button {
+  background-color: #3882F6;
+  border: 1px solid #F9FAF8;
+  border-radius: 5px;
+  color: #E5E7EB;
+  width: 100px;
+  height: 30px;
+  margin: 18px 0;
+}
+footer {
+  background-color: #1F2937;
+  font-size: 12px;
+  font-weight: 300;
+  color: #F9FAF8;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
